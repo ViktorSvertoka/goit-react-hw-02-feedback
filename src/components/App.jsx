@@ -1,3 +1,3 @@
 export default function App() {
-  return <div>React homework template123</div>;
+  return <div>123</div>;
 }
