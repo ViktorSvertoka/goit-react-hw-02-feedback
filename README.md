@@ -1,3 +1,5 @@
+npm install react@latest react-dom@latest
+
 # React homework template
 
 Этот проект был создан при помощи
