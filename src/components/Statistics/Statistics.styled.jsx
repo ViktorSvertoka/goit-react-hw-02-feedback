@@ -2,6 +2,9 @@ import styled from 'styled-components';
 
 export const List = styled.ul`
   list-style: none;
-  margin: 0 auto;
-  width: 400px;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  margin-left: 40px;
+  font-size: 22px;
 `;
