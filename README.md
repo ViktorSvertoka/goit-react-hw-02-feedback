@@ -1,5 +1,4 @@
 Використовуй цей
-
 [шаблон React-проекту](https://github.com/goitacademy/react-homework-template#readme)
 як стартову точку своєї програми.
 
