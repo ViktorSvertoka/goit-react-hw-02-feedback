@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Container } from './App.styled';
 import { Section } from '../Section/Section';
 import { FeedbackOptions } from '../FeedbackOptions/FeedbackOptions';
+import { Statistics } from '../Statistics/Statistics';
 
 export class App extends Component {
   state = {
@@ -38,7 +39,15 @@ export class App extends Component {
             options={options}
           />
         </Section>
-        <Section title="Statistics" />
+        <Section title="Statistics">
+          <Statistics
+            good={good}
+            neutral={neutral}
+            bad={bad}
+            total={totalFeedback}
+            positivePercentage={totalPercentage}
+          />
+        </Section>
       </Container>
     );
   }
